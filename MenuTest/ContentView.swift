@@ -347,6 +347,24 @@ struct MainPage : View {
                         
                         Spacer(minLength: 0)
                     }
+                    HStack(spacing: 15){
+                        Image("h1")
+                        
+                        VStack(alignment: .leading, spacing: 12)
+                        {
+                            Text("New Ninebot")
+                            .fontWeight(.bold)
+                            .foregroundColor(.black)
+                            
+                            Text("Urban cycle helmet")
+                            .foregroundColor(.gray)
+                            
+                        }
+                        Spacer(minLength: 0)
+                    }
+                    
+                    
+                    
                 }
                 .padding()
             }
